@@ -12,7 +12,7 @@ export function renderOrderSummary(){
     emptycartHTML = `
         <div>
             <h3>Your cart is empty</h3>
-            <a href ="amazon.html">
+            <a href ="index.html">
                 <button class="view-products-button button-primary" >
                 View Products
             </button>

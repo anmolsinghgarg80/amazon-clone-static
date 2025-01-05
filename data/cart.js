@@ -44,7 +44,7 @@ export function updateCheckoutQuantity(){
     });
     document.querySelector('.js-checkout-header-middle-section')
     .innerHTML = `Checkout (${checkoutQuantity}<a class="return-to-home-link"
-            href="amazon.html"></a> )`;
+            href="index.html"></a> )`;
 }
 
 export function updateCartQuantity(){
