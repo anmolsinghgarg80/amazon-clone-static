@@ -1,7 +1,7 @@
-import { getProduct } from "../../data/products.js";
-import { loadProducts } from "../../data/products.js";
-import { orders } from "../../data/orders.js";
-import { updateCartQuantity } from "../../data/cart.js";
+import { getProduct } from "../data/products.js";
+import { loadProducts } from "../data/products.js";
+import { orders } from "../data/orders.js";
+import { updateCartQuantity } from "../data/cart.js";
 
 // Helper function to format date
 function formatDate(isoDate) {
