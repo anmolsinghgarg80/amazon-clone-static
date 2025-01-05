@@ -1,5 +1,5 @@
-import { addToCart, updateCartQuantity } from '../data/cart.js'; 
-import { products, loadProducts } from '../data/products.js';
+import { addToCart, updateCartQuantity } from 'amazon-clone-static/data/cart.js'; 
+import { products, loadProducts } from 'amazon-clone-static/data/products.js';
 
 loadProducts(renderProductsGrid);
 
